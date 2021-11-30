@@ -10,25 +10,32 @@ import Skills from './Pages/Skills/Skills';
 function App() {
   return (
     <div className="App container">
-      {/* <NavBar /> */}
       {/* Download Resume  */}
-      <NavBar />
+      {/* <div class="position-relative">
+        <div class="position-absolute top-0 end-0">Resume</div>
+      </div> */}
+      <div id="top">
+        <NavBar />
+      </div>
 
-      <div id="home" style={{ height: "400px", marginTop: '40px' }}>
-        <Home />
-      </div>
-      <div id="projects" style={{ height: "300px" }}>
-        <Projects />
-      </div>
+
+      <Home />
+      <Projects />
       <div id="skills" style={{ height: "300px" }} >
         <Skills />
       </div>
       <div id="about" style={{ height: "400px" }} >
         <About />
       </div>
-      <div id="contact" style={{ height: "300px" }} >
-        <Contact />
-      </div>
+      <Contact />
+
+      {/* <div class="position-relative">
+        <div class="position-fixed bottom-0 end-0 bg-warning m-3 " style={{ borderRadius: '50%', width: '50px', height: '50px' }}>
+          <a href="#top" className="text-decoration-none mt-3" style={{}}>Top</a>
+        </div>
+      </div> */}
+
+      <Footer />
 
       {/* <div className="row">
         
@@ -55,8 +62,6 @@ function App() {
         </div>
 
       </div> */}
-
-      <Footer />
 
     </div>
   );

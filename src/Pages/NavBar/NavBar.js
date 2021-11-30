@@ -4,34 +4,36 @@ import React from 'react';
 
 const NavBar = () => {
   return (
-    <div>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-        <div class="container-fluid d-flex flex-row">
-          <button class="navbar-toggler w-15 btn-info" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01"
+    <div className="">
+      <nav class=" navbar navbar-expand-lg navbar-light bg-success p-2  bg-opacity-50 ">
+        <div class="container-fluid  d-flex flex-row  ">
 
+          {/* <button class="navbar-toggler  btn-info" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01"
+            style={{ marginBottom: '40px' }}
             aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-            {/* <a class="navbar-brand" href="#home"> <h1>Zamal Hossain</h1> </a> */}
-            <ul class="navbar-nav  d-flex flex-row  justify-content-center  mx-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active me-2" aria-current="page" href="#home">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active me-2" href="#projects">Projects</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active me-2" href="#skills">Skills</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active  me-2" href="#about">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="#contact">Contact</a>
-              </li>
-            </ul>
-          </div>
+            <span class="navbar-toggler-icon">  </span>
+          </button> */}
+
+          {/* <div class="collapse navbar-collapse  " id="navbarTogglerDemo01"> */}
+          {/* <a class="navbar-brand" href="#home"> <h1>Zamal Hossain</h1> </a> */}
+          <ul class="navbar-nav  d-flex flex-row  justify-content-center  mx-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active me-2" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active me-2" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active me-2" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active  me-2" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#contact">Contact</a>
+            </li>
+          </ul>
+
         </div>
       </nav>
 

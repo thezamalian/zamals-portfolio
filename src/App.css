@@ -2,6 +2,46 @@
   text-align: center;
 }
 
+
+.main-header {
+  /* height: 95vh; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem;
+}
+
+.main-header h1 {
+  font-size: 4rem;
+  margin-bottom: 2rem;
+  line-height: 1.2;
+}
+
+.main-header h1 span {
+  color: #b50d10;
+}
+
+.main-header p{
+  font-size: 2rem;
+}
+
+
+.button {
+  display: inline-block;
+  background: #000;
+  color: #fff;
+  padding: 0.8rem 1.8rem;
+  margin-top: 2rem;
+  cursor: pointer;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
