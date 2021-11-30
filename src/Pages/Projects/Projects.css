@@ -29,8 +29,11 @@ img {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 2rem;
-    background: #f1f1f1;
+    /* background: #f1f1f1; */
+    background: #07252d;
     margin-bottom: 2rem;
+
+    color: white;
 }
 
 .my-card  img{
@@ -39,6 +42,7 @@ img {
 
 .my-card > div {
     padding: 2rem;
+    align-items: center;
 }
 
 .my-card:nth-child(even) img {

@@ -5,7 +5,7 @@ import React from 'react';
 const NavBar = () => {
   return (
     <div className="">
-      <nav class=" navbar navbar-expand-lg navbar-light bg-success p-2  bg-opacity-50 ">
+      <nav class=" navbar navbar-expand-lg navbar-dark bg-success p-2  bg-opacity-50 text-white">
         <div class="container-fluid  d-flex flex-row  ">
 
           {/* <button class="navbar-toggler  btn-info" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01"
@@ -15,8 +15,8 @@ const NavBar = () => {
           </button> */}
 
           {/* <div class="collapse navbar-collapse  " id="navbarTogglerDemo01"> */}
-          {/* <a class="navbar-brand" href="#home"> <h1>Zamal Hossain</h1> </a> */}
-          <ul class="navbar-nav  d-flex flex-row  justify-content-center  mx-auto mb-2 mb-lg-0">
+          {/* <a class="navbar-brand" href="#home"> <h1>Zam</h1> </a> */}
+          <ul class="navbar-nav  d-md-flex flex-sm-row  justify-content-center  mx-auto mb-2 mb-lg-0">
             <li class="nav-item">
               <a class="nav-link active me-2" aria-current="page" href="#home">Home</a>
             </li>
@@ -30,7 +30,25 @@ const NavBar = () => {
               <a class="nav-link active  me-2" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="#contact">Contact</a>
+              <a class="nav-link active me-2" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item" >
+              <form method="get"
+                action="https://drive.google.com/file/d/1Ci0bdkVgmriHJQxLXyUqjqHeYlqtpuJf/view?usp=sharing"
+                target="_blank"
+              >
+                <button
+                  type="submit"
+                  // onclick=" window.open('https://drive.google.com/file/d/1Ci0bdkVgmriHJQxLXyUqjqHeYlqtpuJf/view?usp=sharing','_blank')"
+                  className="btn btn-dark py-3 px-5">
+                  Resume
+                </button>
+              </form>
+
+
+              {/* <a target="_blank" className="button" href="https://drive.google.com/file/d/1Ci0bdkVgmriHJQxLXyUqjqHeYlqtpuJf/view?usp=sharing" download="resume">Resume</a> */}
+
+
             </li>
           </ul>
 

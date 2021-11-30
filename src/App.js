@@ -20,6 +20,7 @@ function App() {
 
 
       <Home />
+      <hr />
       <Projects />
       <div id="skills" style={{ height: "300px" }} >
         <Skills />
