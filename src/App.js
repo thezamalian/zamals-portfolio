@@ -9,15 +9,52 @@ import Skills from './Pages/Skills/Skills';
 
 function App() {
   return (
-    <div className="App">
-      <NavBar />
+    <div className="App container">
+      {/* <NavBar /> */}
       {/* Download Resume  */}
-      <Home />
+      <NavBar />
 
-      <Projects />
-      <Skills />
-      <About />
-      <Contact />
+      <div id="home" style={{ height: "400px", marginTop: '40px' }}>
+        <Home />
+      </div>
+      <div id="projects" style={{ height: "300px" }}>
+        <Projects />
+      </div>
+      <div id="skills" style={{ height: "300px" }} >
+        <Skills />
+      </div>
+      <div id="about" style={{ height: "400px" }} >
+        <About />
+      </div>
+      <div id="contact" style={{ height: "300px" }} >
+        <Contact />
+      </div>
+
+      {/* <div className="row">
+        
+        <div className="col-12 col-md-8 " style={{ marginLeft: '10%' }}>
+          <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+
+            <div id="scrollspyHeading1" style={{ height: "400px" }}>
+              <Home />
+            </div>
+            <div id="scrollspyHeading2" style={{ height: "300px" }}>
+              <Projects />
+            </div>
+            <div id="scrollspyHeading3" style={{ height: "300px" }} >
+              <Skills />
+            </div>
+            <div id="scrollspyHeading4" style={{ height: "400px" }} >
+              <About />
+            </div>
+            <div id="scrollspyHeading5" style={{ height: "300px" }} >
+              <Contact />
+            </div>
+
+          </div>
+        </div>
+
+      </div> */}
 
       <Footer />
 
