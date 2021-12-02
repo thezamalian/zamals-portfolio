@@ -3,7 +3,7 @@ import React from 'react';
 const Contact = () => {
     return (
         <div id="contact">
-            <h2>Contact Me</h2>
+            <h1>Contact Me</h1>
             <form class="row gy-2 gx-3 align-items-center w-75 mx-auto">
                 <div class="mb-3">
                     <label for="exampleFormControlInput1" class="form-label">Your Full Name</label>

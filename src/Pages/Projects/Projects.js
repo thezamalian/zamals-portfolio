@@ -33,7 +33,7 @@ const projects = [
         clientLink: "https://github.com/thezamalian/doctor-mama",
         serverLink: "https://github.com/thezamalian/doctor-mama-server"
     },
-    {
+    /* {
         id: 4,
         name: "Science Mode",
         img: "https://i.ibb.co/X7XZ0pY/04-science-mode.png",
@@ -42,7 +42,7 @@ const projects = [
         liveLink: "https://review-website-thezamalian.netlify.app/",
         clientLink: "https://github.com/thezamalian/science-mode",
         serverLink: "https://github.com/thezamalian/science-mode-server"
-    },
+    }, */
 ];
 
 // const project = projects[0];
@@ -53,7 +53,7 @@ const Projects = () => {
 
     return (
         <div id="projects ">
-            <h2>All of my Projects</h2>
+            <h1>All of my Projects</h1>
 
             <div className="my-container">
                 {
@@ -67,7 +67,10 @@ const Projects = () => {
                         <div>
                             <h3>{project.name}</h3>
                             <p>{project.shortDetails}</p>
-                            <a href="/" className="button">See Details</a>
+
+                            <a href={project.liveLink} className="button me-2" target="_blank" rel="noreferrer">Live Site</a>
+                            <a href={project.clientLink} className="button me-2" target="_blank" rel="noreferrer">Client Side</a>
+                            <a href={project.serverLink} className="button " target="_blank" rel="noreferrer">Server Side</a>
                         </div>
                     </section>)
                 }

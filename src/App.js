@@ -1,5 +1,6 @@
 import './App.css';
 import About from './Pages/About/About';
+import Blogs from './Pages/Blogs/Blogs';
 import Contact from './Pages/Contact/Contact';
 import Footer from './Pages/Footer/Footer';
 import Home from './Pages/Home/Home';
@@ -22,8 +23,11 @@ function App() {
       <Home />
       <hr />
       <Projects />
-      <div id="skills" style={{ height: "300px" }} >
+      <div id="skills" >
         <Skills />
+      </div>
+      <div id="blogs" style={{ height: "300px" }} >
+        <Blogs />
       </div>
       <div id="about" style={{ height: "400px" }} >
         <About />
